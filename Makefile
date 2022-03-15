@@ -17,11 +17,11 @@ default: update start
 
 .PHONY: start
 start: 
-	- ./bin/start.sh
+	- ${PWD}/bin/start.cmd
 
 .PHONY: stop
 stop: 
-	- ./bin/stop.sh
+	- ${PWD}/bin/stop.cmd
 
 .PHONY: update
 update:
